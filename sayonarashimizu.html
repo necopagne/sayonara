@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>    
+        <meta charset="UTF-8">    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <title>さようなら清水</title>    
+        <link rel="stylesheet" href="sayonarashimizu.css">
+    </head>
+    <body>    
+        <h1>さようなら清水</h1>
+
+        <label for="citySelect">君は今日からどこい行くの？</label>    
+        <select id="citySelect" onchange="showMessage()">        
+            <option value="">-- 都道府県 --</option>        
+            <option value="tokyo">東京</option>        
+            <option value="osaka">大阪</option>        
+            <option value="yokohama">横浜</option>        
+            <option value="kyoto">京都</option>   
+            <option value="hokkaido">北海道</option>   
+            <option value="ishikawa">石川</option>  
+            <option value="toyama">富山</option>  
+        </select>
+             
+        <div id="message"></div>     
+        <script src="sayonarashimizu.js"></script>
+
+<div></div>
+<div></div>
+        <div id="message2" class="hidden-message-box"></div>     
+        <script src="sayonarashimizu.js"></script>
+    </body>
+
+
+</html>
